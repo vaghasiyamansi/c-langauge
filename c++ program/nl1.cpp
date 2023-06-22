@@ -7,8 +7,8 @@ int main()
          {
                  for(y=1; y<=5; y++)
                  {
-                        cout<<"x";
+                        cout<<x;
                  }
-                 cout<<"\n:";
+                 cout<<"\n";
          }
 }
