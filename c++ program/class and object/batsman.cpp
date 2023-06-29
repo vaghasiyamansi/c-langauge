@@ -13,6 +13,7 @@ class batsman
                       batavg=0;     
          }
          public:
+         
 
 void readdata()
 {
