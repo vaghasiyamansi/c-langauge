@@ -11,13 +11,16 @@ class base{
     }
 };
 class derived : public base{
-    int i;
+    int i,fact=1;
     public:
     void getN()
     {
         for(i=1;i<=n;++i)
     {
-       cout<<"square of num is "<<i<<" : "<<i*i<<endl;
+       
+       fact*=i;
+       cout<<"factorial num is "<< i <<" : "<<fact<<endl;
+       
     }
     }
 };
